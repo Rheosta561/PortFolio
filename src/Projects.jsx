@@ -5,7 +5,7 @@ import expee from './expee.png'
 
 function Projects() {
   return (
-    <div className='p-4 bg-zinc-50 h-fit'>
+    <div className='p-4 bg-zinc-50 dark:bg-zinc-900 dark:text-zinc-200 h-fit'>
         <div className='text-6xl font-semibold'>Projects</div>
     <div className="flex flex-wrap md:flex-row flex-col gap-4 pt-4">
       <div className="flex-1 bg-gray-200 h-fit text-white p-2 rounded-lg text-center flex-col">
