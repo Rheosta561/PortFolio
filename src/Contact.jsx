@@ -8,7 +8,7 @@ function Contact() {
       <div className='flex -mt-2'>
         <div className='pl-16 text-gray-700 font-semibold mt-4' >Phone</div>
         <div className='pl-4 text-sm font-semibold mt-5 text-gray-800'><a 
-    href="tel:+1234567890" 
+    href="tel:+917303036689" 
     className="text-gray-900 hover:underline"
   >
     +91 7303036689
