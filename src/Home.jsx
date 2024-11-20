@@ -26,13 +26,13 @@ function Home() {
         <div className="mt-10 font-medium text-xl text-emerald-950">Anubhav Mishra</div>
         <div className="-mt-1 text-sm text-gray-600"> </div>
         <div className="-mt text-xs text-gray-700 " ><a 
-    href="tel:+1234567890" 
+    href="tel:+917303036689" 
     className="text-gray-900 hover:underline"
   >
     +91 7303036689
   </a> </div>
   <div className="-mt text-xs text-gray-700 pb-5 " ><a 
-    href="email:manubhav731@gmail.com" 
+    href="mailto:manubhav731@gmail.com" 
     className="text-zinc-800 hover:underline"
   >
     manubhav731@gmail.com

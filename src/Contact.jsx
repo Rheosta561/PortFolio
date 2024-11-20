@@ -17,7 +17,7 @@ function Contact() {
       <div className='flex -mt-2'>
         <div className='pl-16 text-gray-700 font-semibold mt-2' >Email</div>
         <div className='pl-6 text-sm font-semibold mt-3 text-gray-800'><a 
-    href="email:manubhav731@gmail.com" 
+    href="mailto:manubhav731@gmail.com" 
     className="text-gray-900 hover:underline"
   >
     manubhav731@gmail.com
