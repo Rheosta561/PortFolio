@@ -10,7 +10,7 @@ function About() {
         <li><span className='text-gray-800 dark:text-gray-500'>Class 12th</span> - Rosary Senior Secondary School (91.2%)(PCM)</li>
         <li><span className='text-gray-800 dark:text-gray-500'>Class 10th</span> - Rosary Senior Secondary School (94.6%)</li>
         </ul>
-        <div className='pl-4 pt-3 font-bold dark:text-zinc-400' >Curriculum Vitae     <span> <a href="https://drive.google.com/file/d/1Y_HLmmvnmUc32jBmUkiIOAWc3esYcYLX/view?usp=sharing" className='text-blue-800 text-sm'>Link</a></span></div>
+        <div className='pl-4 pt-3 font-bold dark:text-zinc-400' >Curriculum Vitae     <span> <a href="https://drive.google.com/file/d/1BblDPe-3tIQmGP_QOiu4NbTCUzN-aCd_/view?usp=sharing" className='text-blue-800 text-sm'>Link</a></span></div>
     </div>
   )
 }
