@@ -6,3 +6,13 @@
   padding:0;
   box-sizing: border-box;
 }
+.home{
+  animation-name: fade;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+@keyframes fade{
+  0%  {opacity:0; scale: 0.99; }
+  100%{opacity: 1; scale: 1;}
+}
