@@ -17,7 +17,7 @@ function Intro() {
      <video src="./bg.mp4" autoPlay loop muted className="h-screen "></video>
 
     </div>
-    <div className="h-screen relative dark:bg-zinc-950 w-screen bg-blue-700 flex flex-col items-center justify-center p-4 ">
+    <div className="h-screen relative dark:bg-zinc-950 w-screen bg-blue-700 flex flex-col items-center justify-center p-4 bg-[url('./bg3.jpg')] bg-cover bg-center">
      
      
      
