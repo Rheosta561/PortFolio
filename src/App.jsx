@@ -13,7 +13,11 @@ function App() {
         <Intro />
       </div>
       <div>
+        <div className="">
         <Navbar />
+        </div>
+        
+        <div className="absolute">
         <div id="home">
           <Home />
         </div>
@@ -25,6 +29,8 @@ function App() {
         </div>
         <div id="contact">
           <Contact />
+        </div>
+
         </div>
       </div>
     </div>

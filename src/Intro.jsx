@@ -17,7 +17,7 @@ function Intro() {
      <video src="./bg.mp4" autoPlay loop muted className="h-screen "></video>
 
     </div>
-    <div className="h-screen relative dark:bg-zinc-950 w-screen bg-blue-700 flex flex-col items-center justify-center p-4 bg-[url('./bg3.jpg')] bg-cover bg-center">
+    <div className="h-screen relative dark:bg-zinc-950 w-screen bg-teal-100 flex flex-col items-center justify-center p-4 dark:bg-[url('./bg3.jpg')] bg-cover bg-center">
      
      
      
@@ -49,7 +49,7 @@ function Intro() {
            <br />
            <br />
            <a href="#nav" onClick={scrollToNav}>
-             <div className="h-12 w-32 rounded-full md:w-36 dark:bg-gray-200 flex justify-center items-center text-lg text-zinc-800 ">
+             <div className="h-12 w-32 rounded-full md:w-36 dark:bg-gray-200 bg-teal-950 flex justify-center items-center text-lg dark:text-zinc-800 text-gray-200 ">
                Get Started
              </div>
            </a>
