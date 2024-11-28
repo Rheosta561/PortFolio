@@ -17,7 +17,7 @@ function Intro() {
 
       
 
-      <div className="h-screen relative flex flex-col items-center justify-center p-4 dark:bg-[url('./bg3.jpg')] bg-zinc-50 bg-cover bg-center">
+      <div className="h-screen relative flex flex-col items-center justify-center p-4 dark:bg-zinc-950 bg-zinc-50 bg-cover bg-center">
         <div className="text-9xl font-semibold bg-gradient-to-r from-zinc-800 to-gray-950 dark:from-zinc-100 dark:to-zinc-700  bg-clip-text text-transparent">
           Hello
         </div>
