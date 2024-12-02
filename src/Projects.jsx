@@ -8,7 +8,7 @@ function Projects() {
     <div className='p-4 bg-zinc-50 dark:bg-zinc-900 dark:text-zinc-200 h-fit'>
         <div className='text-6xl font-semibold'>Projects</div>
     <div className="flex flex-wrap md:flex-row flex-col gap-4 pt-4">
-      <div className="flex-1 bg-gray-200 h-fit text-white p-2 rounded-lg text-center flex-col">
+      <div className="flex-1 bg-gray-200 h-fit text-white p-2 rounded-lg text-center flex-col hover:scale-105 transition-all">
         <div className='h-60  rounded-lg bg-zinc-950'>
             <img src={mitr}  className='h-full  w-full rounded-lg 'alt="" />
         </div>
@@ -17,7 +17,7 @@ function Projects() {
         
       </div>
 
-      <div className="flex-1 bg-gray-200 h-fit text-white p-2 rounded-lg text-center flex-col">
+      <div className="flex-1 bg-gray-200 h-fit text-white p-2 rounded-lg text-center flex-col hover:scale-105 transition-all">
         <div className='h-60  rounded-lg bg-zinc-950'>
         <img src={aayushi}  className='h-full  w-full rounded-lg 'alt="" />
         </div>
@@ -25,7 +25,7 @@ function Projects() {
         <div className=' w-1/5 h-8 text-center text-zinc-50 m-auto mt-2 rounded-full py-2 text-sm hover:text-white  bg-emerald-950'><a href="https://github.com/Rheosta561/Museum-chatbot-prototype">Visit</a></div>
         
       </div>
-      <div className="flex-1 bg-gray-200 h-fit text-white p-2 rounded-lg text-center flex-col">
+      <div className="flex-1 bg-gray-200 h-fit text-white p-2 rounded-lg text-center flex-col hover:scale-105 transition-all">
         <div className='h-60  rounded-lg bg-zinc-950'>
         <img src={expee}  className='h-full  w-full rounded-lg 'alt="" />
         </div>
