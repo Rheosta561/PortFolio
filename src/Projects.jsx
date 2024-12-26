@@ -2,12 +2,21 @@ import React from 'react'
 import mitr from './mitr.png'
 import aayushi from './aayushi.png'
 import expee from './expee.png'
+import maargway from './Maargway.png'
 
 function Projects() {
   return (
     <div className='p-4 bg-zinc-50 dark:bg-zinc-900 dark:text-zinc-200 h-fit'>
         <div className='text-6xl font-semibold'>Projects</div>
-    <div className="flex flex-wrap md:flex-row flex-col gap-4 pt-4">
+    <div className="flex flex-wrap md:grid md:grid-cols-3 flex-col gap-4 pt-4">
+    <div className="flex-1 bg-gray-200 h-fit text-white p-2 rounded-lg text-center flex-col hover:scale-105 transition-all">
+        <div className='h-60  rounded-lg bg-zinc-950'>
+        <img src={maargway}  className='h-full  w-full rounded-lg object-right-top object-cover 'alt="" />
+        </div>
+        <div className='text-zinc-950 text-xl font-semibold pt-2'>MaargWay - AI Recommendation System</div>
+        <div className=' w-1/5 h-8 text-center text-zinc-50 m-auto mt-2 rounded-full py-2 text-sm hover:text-white bg-emerald-950'><a href="https://maargway.vercel.app">Visit</a></div>
+        
+      </div>
       <div className="flex-1 bg-gray-200 h-fit text-white p-2 rounded-lg text-center flex-col hover:scale-105 transition-all">
         <div className='h-60  rounded-lg bg-zinc-950'>
             <img src={mitr}  className='h-full  w-full rounded-lg 'alt="" />
@@ -33,6 +42,7 @@ function Projects() {
         <div className=' w-1/5 h-8 text-center text-zinc-50 m-auto mt-2 rounded-full py-2 text-sm hover:text-white bg-emerald-950'><a href="https://github.com/Rheosta561/ExPee-Music">Visit</a></div>
         
       </div>
+      
     </div>
     </div>
   )
