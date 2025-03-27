@@ -1,6 +1,7 @@
 import React from "react";
 import Homeimg from "./IMG_0649.jpg";
 import Profile from "./profile.jpeg"
+import newProfile from './1.jpeg'
 function Home() {
   return (
     <>
@@ -21,7 +22,7 @@ function Home() {
       
       <div className=" h-fit bg-zinc flex items-center flex-col dark:bg-zinc-900">
         <div className="bg-zinc-950 h-40 w-40 rounded-full scale-150 mt-12">
-            <img src={Profile} alt="" className="h-full w-full border-zinc-950  shadow-sm rounded-full object-cover "/>
+            <img src={newProfile} alt="" className="h-full w-full border-zinc-950  shadow-sm rounded-full object-cover "/>
         </div>
         <div className="mt-10 font-medium text-xl text-emerald-950 dark:text-zinc-300">Anubhav Mishra</div>
         <div className="-mt-1 text-sm text-gray-600"> </div>
