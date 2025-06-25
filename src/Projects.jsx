@@ -14,7 +14,7 @@ function Projects() {
     <div className="flex flex-wrap md:grid md:grid-cols-3 flex-col gap-4 pt-4">
       <div className="flex-1 bg-gray-200 h-fit text-white p-2 rounded-lg text-center flex-col hover:scale-105 transition-all">
   <div className='h-60 rounded-lg bg-zinc-950'>
-    <img src={ravenImage} className='h-full w-full rounded-lg object-right-top object-cover' alt="Raven" />
+    <img src={ravenImage} className='h-full w-full rounded-lg object-right-top object-contain' alt="Raven" />
   </div>
   <div className='text-zinc-950 text-xl font-semibold pt-2'>Raven — Your Call for Justice</div>
   <div className='w-1/5 h-8 text-center text-zinc-50 m-auto mt-2 rounded-full py-2 text-sm hover:text-white bg-emerald-950'>
