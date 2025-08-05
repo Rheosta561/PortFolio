@@ -30,7 +30,7 @@ function Intro() {
 
         <div className="dark:text-zinc-50 text-3xl sm:text-5xl md:text-7xl">
           <Typewriter
-            words={["A Full Stack Developer", "A UI Designer", "A Music Producer"]}
+            words={["A Full Stack Developer", "A UI Designer", "A Cross Platform App Developer"]}
             loop={Infinity}
             cursor
             cursorStyle="|"
@@ -74,7 +74,7 @@ function Intro() {
           </div>
           <div className="h-full w-1/4 rounded-full flex justify-center items-center">
             <a
-              href="https://www.youtube.com"
+              href="https://youtube.com/@techvolsung-b5t?si=dByTjHB7MzZN-AUJ"
               target="_blank"
               rel="noopener noreferrer"
             >
